@@ -17,7 +17,7 @@ function showList() {
         console.log(team);
     });
 }
-
+//testttt-----------------------
 function deleteTeam(team) {
     var index = teams.indexOf(team);
     if (index !== -1) {
