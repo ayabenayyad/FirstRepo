@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>AVANT SWITCHER</h1>
+        <script>
+            var a = 1;
+            var b = 2;
+            document.write("A = " + a + ", B = " + b + "<br>"); // Utiliser + pour la concaténation
+            
+            function switcherVar() {
+                var c; 
+                c = a; // Stocke la valeur de a dans c
+                a = b; // Assigne la valeur de b à a
+                b = c; // Assigne la valeur de c (ancienne valeur de a) à b
+            }
+
+            switcherVar(); // Appelle la fonction
+            
+            document.write("APRES SWITCHER<br>"); // Indique que c'est après l'échange
+            document.write("A = " + a + ", B = " + b); // Affiche les valeurs après l'échange
+        </script>
+    </body>
+</html>
