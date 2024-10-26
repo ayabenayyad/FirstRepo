@@ -10,7 +10,7 @@ function addTeam(team) {
         console.log(team + " is already on the list");
     }
 }
-
+//testttt
 function showList() {
     console.log("Finals liste :");
     teams.forEach(function(team) {
